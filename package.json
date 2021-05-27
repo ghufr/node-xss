@@ -1,18 +1,14 @@
 {
-  "name": "XSS_Example",
+  "name": "xss-node",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zeeraa/XSS-Example.git"
-  },
   "dependencies": {
-    "express": "4.15.5",
-    "socket.io": "2.1.0",
-    "ws": "3.2.0"
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2",
+    "ws": "^7.4.6"
   },
   "keywords": [],
   "license": "MIT"
