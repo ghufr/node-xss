@@ -7,11 +7,16 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
+    "dompurify": "^2.2.9",
     "express": "^4.17.1",
     "express-validator": "^6.11.1",
     "socket.io": "^4.1.2",
+    "validator": "^13.6.0",
     "ws": "^7.4.6"
   },
   "keywords": [],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }

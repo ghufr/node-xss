@@ -1,15 +1,16 @@
 const express = require("express");
 const app = express();
 const serv = require("http").Server(app);
+// const { check } = require('express-validator');
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/client/index.html");
 });
 app.use("/client", express.static(__dirname + "/client"));
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 if (process.env.PORT == undefined) {
-  console.log("no port defined using default (5000)");
+  console.log("no port defined using default (8000)");
 }
 
 serv.listen(port);
